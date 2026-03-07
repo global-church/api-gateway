@@ -94,9 +94,6 @@ const config: ZudokuConfig = {
   //   clientId: "f8I87rdsCRo4nU2FHf0fHVwA9P7xi7Ml",
   //   audience: "https://api.example.com/",
   // },
-  redirects: [
-    { from: "/", to: "/guides/what-is-global-church" },
-  ],
   apiKeys: {
     enabled: true,
   },
