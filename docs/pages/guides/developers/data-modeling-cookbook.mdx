@@ -11,7 +11,7 @@ The ontology namespace is `https://ontology.global.church/core#` (prefix `gc:`).
 
 ## How We Model an Organization
 
-A [`gc:Organization`](https://ontology.global.church/core#Organization) is a `prov:Agent` -- an entity that can act, make decisions, and bear responsibility. Organizations include churches, mission agencies, denominations, and networks.
+A [`gc:Organization`](https://ontology.global.church/#Organization) is a `prov:Agent` -- an entity that can act, make decisions, and bear responsibility. Organizations include churches, mission agencies, denominations, and networks.
 
 Every organization must have a name and at least one organization type. Other properties (city, state, website, belief classification) are optional.
 
@@ -73,8 +73,8 @@ Every organization must have a name and at least one organization type. Other pr
 
 An engagement connects an organization to a people group through an activity. This uses the PROV-O participation pattern:
 
-1. A [`gc:MinistryActivity`](https://ontology.global.church/core#MinistryActivity) (`prov:Activity`) represents the engagement work.
-2. The activity links to the people group via [`gc:engagesPeopleGroup`](https://ontology.global.church/core#engagesPeopleGroup).
+1. A [`gc:MinistryActivity`](https://ontology.global.church/#MinistryActivity) (`prov:Activity`) represents the engagement work.
+2. The activity links to the people group via [`gc:engagesPeopleGroup`](https://ontology.global.church/#engagesPeopleGroup).
 3. The organization is connected as the agent through a qualified association.
 
 ### Turtle
@@ -144,7 +144,7 @@ An engagement connects an organization to a people group through an activity. Th
 
 ## How We Model a People Group
 
-A [`gc:PeopleGroup`](https://ontology.global.church/core#PeopleGroup) represents a people-group-in-country (PGIC). Identity properties live directly on the people group. Assessment data uses the 3-block pattern: PeopleGroup + [`gc:Assessment`](https://ontology.global.church/core#Assessment) + [`gc:AssessmentResult`](https://ontology.global.church/core#AssessmentResult).
+A [`gc:PeopleGroup`](https://ontology.global.church/#PeopleGroup) represents a people-group-in-country (PGIC). Identity properties live directly on the people group. Assessment data uses the 3-block pattern: PeopleGroup + [`gc:Assessment`](https://ontology.global.church/#Assessment) + [`gc:AssessmentResult`](https://ontology.global.church/#AssessmentResult).
 
 ### Turtle
 
