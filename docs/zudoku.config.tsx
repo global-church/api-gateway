@@ -19,6 +19,9 @@ const config: ZudokuConfig = {
     title: "Global.Church Developer Portal",
     description: "Global.Church API documentation and developer playground site",
   },
+  redirects: [
+    { from: "/", to: "/guides/what-is-global-church" },
+  ],
   navigation: [
     {
       type: "category",
